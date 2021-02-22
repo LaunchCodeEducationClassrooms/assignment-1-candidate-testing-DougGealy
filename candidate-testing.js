@@ -52,7 +52,7 @@ for (let i = 0; i < candidateAnswers.length; i++) {
 
   let grade = totalPoints / questions.length * 100; 
   console.log(">>> Overall Grade: " + grade + "% " + "(" + totalPoints + " of 5 responses correct) <<<");
-  if (totalPoints >= 4) {
+  if (totalPoints >= 3) {
     console.log(">>> Status: PASSED <<<")
   } else {
     console.log(">>> Status: FAILED <<<")
